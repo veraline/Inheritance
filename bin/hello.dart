@@ -1,26 +1,26 @@
+// class Accountbalance{
+//   double _balance = 0;
+//   // Accountbalance(double balance){
+//   //   _balance = balance;
+//   // }
+//   double get balance => _balance;
+//   deposit(double amount){
+// _balance += amount;
+//   }
+//   bool withdraw(double amount){
+//     if(amount <= _balance){
+//       _balance -= amount;
+// return true;
+//     }
+//     return false;
+//   }
+  
+// }
+// class SavingsAccount extends Accountbalance{}
+// void main(){
+// var saving = SavingsAccount();
+// saving.deposit(2000);
+// saving.withdraw(200);
+// print(saving.balance);
 
-class BankAccount{
-  double _balance = 0;
- double get balance{
-    return _balance;
-  }
-  deposit (double amount){//Method
-    _balance += amount;
-  }
-  withdraw (double amount){
-if(amount <= _balance){
-  _balance -= amount;
-  return true;
-}
-return false;
-  }
-}
-
-class SavingAccount extends BankAccount{}
-  void main(){
-    var account = BankAccount();
-    account.deposit(20000);
-    account.withdraw(200);
-    print(account.balance);
-  }
-
+// }
